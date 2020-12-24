@@ -135,8 +135,8 @@
                   <a name="test1">
                   </a> <!-- test1 -->
                   <span class="method-name">test1</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at tests.HomePageTest.initialization(HomePageTest.java:20)
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at tests.HomePageTest.initialization(HomePageTest.java:66)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -146,8 +146,8 @@
                   <a name="test2">
                   </a> <!-- test2 -->
                   <span class="method-name">test2</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at tests.HomePageTest.initialization(HomePageTest.java:20)
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at tests.HomePageTest.initialization(HomePageTest.java:66)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -207,11 +207,11 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test2')
+data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'tests.HomePageTest')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test1')
+data.setCell(1, 1, 'test2')
 data.setCell(1, 2, 'tests.HomePageTest')
 data.setCell(1, 3, 0);
 window.suiteTableData['tests_HomePageTest']= { tableData: data, tableDiv: 'times-div-tests_HomePageTest'}
@@ -253,15 +253,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">test1</span>
-                <span class="method-start">37 ms</span>
+                <span class="method-start">31 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">39 ms</span>
+                <span class="method-start">33 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
-                <span class="method-name">TestAfter</span>
-                <span class="method-start">41 ms</span>
+                <span class="method-name">quit</span>
+                <span class="method-start">35 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
