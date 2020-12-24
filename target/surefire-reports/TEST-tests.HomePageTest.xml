@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="1" name="tests.HomePageTest" time="0.581" errors="0" skipped="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\akapranchuk\IdeaProjects\Lecture4"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\akapranchuk\IdeaProjects\Lecture4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKAPRA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jre-11.0.3.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\akapranchuk\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\Program Files (x86)\Bitvise SSH Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-15.0.1;&quot;;C:\Program Files\Java\jdk-15.0.1\bin;&quot;;&quot;;C:\Program Files\apache-maven-3.6.3\bin;&quot;;C:\Users\akapranchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\akapranchuk\AppData\Local\Programs\Fiddler;C:\Users\akapranchuk\AppData\Local\Microsoft\WindowsApps;&quot;;C:\Program Files\Java\jdk-15.0.1\bin;&quot;;&quot;;C:\Program Files\apache-maven-3.6.3\bin;&quot;;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Java\jdk-15.0.1;&quot;% CLASSPATH%;% TESTNG_HOME% \ testng-6.8.jar.&quot;;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\akapranchuk"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="akapranchuk"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.language" value="uk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tests.HomePageTest" name="initialization" time="0.579">
+    <failure message="Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because &quot;browserName&quot; is null
+	at tests.HomePageTest.initialization(HomePageTest.java:66)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@4c203ea1
+Start Test
+</system-out>
+    <system-err>java.io.FileNotFoundException: C:\Users\akapranchuk\IdeaProjects\Lecture4\src\test\java\utils\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:153)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:108)
+	at tests.HomePageTest.&lt;init&gt;(HomePageTest.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23)
+	at org.testng.internal.InstanceCreator.instantiateUsingDefaultConstructor(InstanceCreator.java:193)
+	at org.testng.internal.InstanceCreator.createInstanceUsingObjectFactory(InstanceCreator.java:113)
+	at org.testng.internal.InstanceCreator.createInstance(InstanceCreator.java:79)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:109)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:167)
+	at org.testng.TestClass.getInstances(TestClass.java:102)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:82)
+	at org.testng.TestClass.init(TestClass.java:74)
+	at org.testng.TestClass.&lt;init&gt;(TestClass.java:39)
+	at org.testng.TestRunner.initMethods(TestRunner.java:457)
+	at org.testng.TestRunner.init(TestRunner.java:336)
+	at org.testng.TestRunner.init(TestRunner.java:289)
+	at org.testng.TestRunner.&lt;init&gt;(TestRunner.java:180)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:613)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:178)
+	at org.testng.SuiteRunner.&lt;init&gt;(SuiteRunner.java:112)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1306)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1282)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1131)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="test1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="test2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.HomePageTest" name="quit" time="0.002">
+    <skipped/>
+  </testcase>
+</testsuite>

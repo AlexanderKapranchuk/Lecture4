@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.696 sec <<< FAILURE!
+initialization(tests.HomePageTest)  Time elapsed: 0.579 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+	at tests.HomePageTest.initialization(HomePageTest.java:66)
+
